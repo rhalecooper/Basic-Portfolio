@@ -1,0 +1,31 @@
+body {
+    background-color: lightgray ;
+}
+
+header {
+    width: 960px;
+    background-color: white;
+    /* padding: 20px; */
+    /* border: 10px;*/
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
+}
+
+.your-name {
+    float: left;
+    background-color: darkgray;
+    color: white;
+    padding: 20px;
+    height: 100%;
+}
+
+nav {
+    float: right;
+}
+
+/* .container-2 {
+    width: 960px;
+    padding: 20px;
+    border-width: 10px; 
+    border-color: red; 
+} */
