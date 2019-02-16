@@ -1,26 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: lightgray ;
 }
 
+/* body div {
+    border: 0.1px solid red; /* outline block/box in gray dots */
+} */
+
 header {
     width: 960px;
-    background-color: white;
+    /* background-color: white; */
     /* padding: 20px; */
     /* border: 10px;*/
-    margin-left: 0 auto; 
-    margin-right: 0 auto;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
-.your-name {
+.header-all {
+    height: 40px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.header-part-1 {
+    float: left;
+    background-color: white;
+    color: darkgray;
+    /* padding: 20px; */
+    width: 15%;
+}
+
+.header-part-2 {
     float: left;
     background-color: darkgray;
     color: white;
-    padding: 20px;
-    height: 100%;
+    width: 20%;
+
+}
+.header-part-3 {
+    float: left;
+    background-color: white;
+    color: darkgray;
+    width: 50%;
+    text-align: right;
+
 }
 
-nav {
+.header-part-4 {
     float: right;
+    background-color: white;
+    color: darkgray;
+    width: 15%;
+}
+
+footer {
+    clear: both;
+    border: 0.1px solid red; 
 }
 
 /* .container-2 {
