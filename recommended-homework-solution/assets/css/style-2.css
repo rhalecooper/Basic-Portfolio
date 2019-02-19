@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    background: url("../images/concrete_seamless.png");
+}
+
+.container-1 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.container-2 {
+    /* Limit width of nav bar to 960 px */
+    /* Center the narbar                */
+    max-width: 960px;
+    margin: 0 auto;
+    height: 90px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+#your-name {
+    float: left;
+    width: 250px;
+    height: 90px;
+    background: lightgray;
+    color: #ffffff;
+    text-align: center;
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+nav {
+    float: right;
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #999;
+    text-decoration: none;
+}
+
+.content-container {
+    clear: both;
+    overflow: auto;
+    border-bottom-width: 20px;
+    border-bottom-color: #dddddd;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: red;
+    background-image: url("../images/textured_paper.png") lightgray;
+    /* background-image: url("textured_paper.png") lightgray; */
+    background-color: transparent;
+}
+
+.content {
+    width: 100;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.content h1 {
+    background: #ffffff;
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: white;
+    font-size: .6em;
+    background-color: #666666;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-top: 8px solid #4aaaa5;
+}
